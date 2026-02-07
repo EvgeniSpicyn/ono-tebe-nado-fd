@@ -1,3 +1,7 @@
+body {
+  color: black;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -53,7 +57,7 @@
 .cover {
   min-height: 757px;
   position: relative;
-  background: url("../images/cover.jpg");
+  background: url('../images/cover.jpg');
   background-size: cover;
   color: white;
   text-transform: uppercase;
@@ -177,7 +181,6 @@
   color: white;
   font-size: 20px;
   padding: 0px 39px 47px;
-  
 }
 
 .card_type_film {
@@ -210,8 +213,8 @@
   grid-template-columns: 334px 1fr;
   grid-template-rows: 240px 1fr;
   grid-template-areas:
-  "logo title"
-  ". text";
+    'logo title'
+    '. text';
 }
 
 .about__logo {
